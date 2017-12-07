@@ -6,11 +6,24 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-$primary-color: #80B3FF;
+$primary-color: #FFF5B4;
 $primary-color-rgb: rgb(24,288,156);
-$secondary-color: #2c3e50;
-$secondary-color-dark: #233140;
+$secondary-color: #9A1913;
+$secondary-color-dark: rgb(112, 17, 13);
+$tertiary-color: #B57B45;
 
+// Overrinding boostrap
+body {
+    color: $secondary-color;
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 1.6;
+}
+.navbar-default {
+    background-color: $secondary-color;
+}
 
  body {
     overflow-x: hidden;
@@ -39,9 +52,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    // text-transform: uppercase;
+    font-weight: 400;
 }
 
 hr.star-light,
@@ -66,11 +78,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: $secondary-color;
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: $secondary-color;
     background-color: $primary-color;
 }
 
@@ -89,7 +101,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: $tertiary-color;
     background: $primary-color;
 }
 
@@ -105,10 +117,9 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    // text-transform: uppercase;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
@@ -156,9 +167,9 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    // text-transform: uppercase;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-weight: 700;
 }
 
 .navbar a:focus {
@@ -188,7 +199,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: $tertiary-color;
     background: $primary-color;
 }
 
@@ -261,9 +272,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px $tertiary-color;
     font-size: 20px;
-    color: #fff;
+    color: $tertiary-color;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -272,9 +283,9 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px $tertiary-color;
     color: $primary-color;
-    background: #fff;
+    background: $tertiary-color;
 }
 
 .floating-label-form-group {
