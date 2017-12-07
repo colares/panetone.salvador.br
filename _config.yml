@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Panetone Salvador
-email: your-email@example.com
+email: panetonesalvador@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -22,10 +22,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 keywords: "your keywords, separated by commas"
-twitter_username: jekyllrb
-github_username:  jekyll
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+twitter_username: panetonessa
+github_username:  colares
+skills: "Sed dui sapien, sollicitudin sagittis, rutrum iaculis massa."
+meta_author: Panetone Salvador
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
