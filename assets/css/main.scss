@@ -68,11 +68,12 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
+    
     position: relative;
     top: -.8em;
+    display: inline-block;
     padding: 0 .25em;
+    content: '\f005';
     font-family: FontAwesome;
     font-size: 2em;
 }
@@ -102,12 +103,28 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: $tertiary-color;
-    background: $primary-color;
+    background-color: $primary-color;
 }
+
+header {
+    .img-banner {
+        height: 250px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        img {
+            height: 460px;
+            margin-top: -30px;
+        }
+    }
+}
+
+
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 header img {
@@ -128,9 +145,10 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
+
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 180px;
+        padding-bottom: 0;
     }
 
     header .intro-text .name {
